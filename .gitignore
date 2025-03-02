@@ -1,0 +1,4 @@
+__pycache__/
+db.sqlite3
+ll_env/
+.git_info_onBrachnamechange.txt

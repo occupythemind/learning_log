@@ -1,0 +1,15 @@
+{%extends 'learning_logs/base.html'%}
+  {%block content%}
+    <h1>Login</h1>
+
+    {%if form.errors%}
+        <p>This user couldn't be found</p>
+    {%endif%}
+    <form action="{%url 'users:login'%}" method="POST">
+        {%csrf_token%}
+        {{form.as_p}}
+        <button name="submit">Login</button>
+        <input type="hidden" name='next' value="{%url 'learning_logs:index'%}"/>
+
+    </form>
+{%endblock content%}
