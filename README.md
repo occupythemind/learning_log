@@ -8,7 +8,9 @@ git commit -m "<message>" (The commit message - changes description)
 
 git remote add origin <repo_link> (The repo you created earlier, add it here)
 git remote -v (To verify if the repository was added)
-git push -u origin master (Replace 'master' with the branch name you used or you want to make changes with)
+git push -u origin master (Replace 'master' with the branch name you used or you want to make changes with; it'll still work cause now
+	the 2 repos have been linked, but you'll need to go to github, make a ull request, check for conflicts (If no conflict or you're okay with it) then merge.)Just like collaborators.
+
 
 You already know that the branch name decides with name/ branch has the changes
 you made. Don't be confused.
