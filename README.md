@@ -1,7 +1,7 @@
 # Learning Logs 📋
  Make short Notes and save them. You can always refer back to the later 🙃
 
-# Meta
+## Meta
  I'm happy to upload my first web application project. This project was gotten from the book:
 
 ```
